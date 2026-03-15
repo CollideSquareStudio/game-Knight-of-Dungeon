@@ -1,0 +1,29 @@
+*.cs text diff=csharp
+
+*.shader text
+*.cginc text
+
+*.unity text
+*.prefab text
+*.mat text
+*.asset text
+*.anim text
+*.controller text
+*.meta text
+
+*.png binary
+*.jpg binary
+*.psd binary
+*.tga binary
+*.fbx binary
+*.mp3 binary
+*.wav binary
+
+*.unity merge=unityyamlmerge
+*.prefab merge=unityyamlmerge
+*.asset merge=unityyamlmerge
+*.anim merge=unityyamlmerge
+*.controller merge=unityyamlmerge
+*.mat merge=unityyamlmerge
+*.physicMaterial merge=unityyamlmerge
+*.lighting merge=unityyamlmerge
